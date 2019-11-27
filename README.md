@@ -5,7 +5,8 @@ This project aims at providing a fast, modular reference implementation for A Co
 ![model image](demo/model.png)
 
 ## Note!
-We find that densenet block is not import for Model. you can easily replace it with Conv3*3
+We find that densenet block is not import for Model. you can easily replace it with Conv3*3  
+Our model structure is the same as [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)  
 ## Prerequisites
 - PyTorch 1.0
   - `pip3 install torch torchvision`
