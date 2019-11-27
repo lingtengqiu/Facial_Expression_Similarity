@@ -42,6 +42,13 @@ make link
 ```
 soft link to result
 
+## Experiment Results
+Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC| ACC
+:--:|:--:|:--:|:--:|:--:
+ InceptionNN2+denseblock  | 76.4 | 78.8 | 77.8 | 77.3
+ InceptionResnet+denseblock   | 64.1 | 70.0 | 65.2  | 66.9 
+ Resnet18+Conv3*3   | 78.2 | 80.5 | 80.2 | 79.7
+
 ## Training
 1. create the config file of dataset:`train_list.txt`   
 2. modify the `config/*.yaml` according to your requirements
@@ -70,9 +77,3 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
     ```bash
     bash inference.sh
     ```
-## Experiment Results
-Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC| ACC
-:--:|:--:|:--:|:--:|:--:
- InceptionNN2+denseblock  | 76.4 | 78.8 | 77.8 | 77.3
- InceptionResnet+denseblock   | 64.1 | 70.0 | 65.2  | 66.9 
- Resnet18+Conv3*3   | 78.2 | 80.5 | 80.2 | 79.7
