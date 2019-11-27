@@ -34,7 +34,7 @@ Be Careful! Our model does not use all the triple pairs because of the loss of c
      |-- annotations
 ```
 In annotations, your training triple data name save into \*.txt  
-all of it, you can change in config\\paths_catalog.py
+All of it, you can change in [paths_catalog.py](./configs/paths_catalog.py)
 ## Link
 we must build the env for training 
 ```bash
