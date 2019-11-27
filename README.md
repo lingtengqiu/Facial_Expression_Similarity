@@ -60,5 +60,4 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
     ```bash
     bash inference.sh
     ```
-## ExperiResult
-
+## Experiment Results
