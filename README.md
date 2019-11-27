@@ -23,9 +23,9 @@ concate qiulingteng
 
 ## Model Zoo
 ### Supported Model
-- [ResNet18]
-- [Inception N22]
-- [Inception Resnet] 
+- ResNet18
+- Inception N22
+- Inception Resnet 
 
 ## Link
 we must build the env for training 
