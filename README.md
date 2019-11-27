@@ -61,7 +61,8 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
     bash inference.sh
     ```
 ## Experiment Results
-Methods | Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC 
+Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC| ACC
 :--:|:--:|:--:|:--:|:--:
- deeperlab(ours+SBD)  | R101_v1c | *train_aug*  | *val*  | 79.71 
- deeperlab(ours)   | R101_v1c | *train_aug*  | *val*  | 73.28 
+ InceptionNN2+denseblock  | R101_v1c | *train_aug*  | *val*  | 79.71 
+ InceptionResnet+denseblock   | R101_v1c | *train_aug*  | *val*  | 73.28 
+ Resnet18+Conv3*3   | R101_v1c | *train_aug*  | *val*  | 73.28 
