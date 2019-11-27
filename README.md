@@ -18,8 +18,6 @@ Our model structure is the same as [maskrcnn-benchmark](https://github.com/faceb
 - tqdm
   - `pip3 install tqdm`  
   
-## Pretrain Model  
-concate qiulingteng
 
 ## Model Zoo
 ### Supported Model
@@ -62,4 +60,5 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
     ```bash
     bash inference.sh
     ```
+## ExperiResult
 
