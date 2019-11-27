@@ -1,5 +1,5 @@
-# Face Emotion Net
-This project aims at providing a fast, modular reference implementation for A Compact Embedding for Facial Expression Similarity models using PyTorch.
+# A Compact Embedding for Facial Expression 
+This project aims at providing a fast, modular reference implementation for "A Compact Embedding for Facial Expression Similarity" using PyTorch.
 - [A_Compact_Embedding_for_Facial_Expression_Similarity](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vemulapalli_A_Compact_Embedding_for_Facial_Expression_Similarity_CVPR_2019_paper.pdf)(CVPR2019) 
 
 ![model image](demo/model.png)
