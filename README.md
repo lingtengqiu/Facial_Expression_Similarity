@@ -24,8 +24,15 @@ Our model structure is the same as [maskrcnn-benchmark](https://github.com/faceb
 - Inception N22
 - Inception Resnet 
 ## Datasets
-Be Careful， Our model does not use all the triple pairs because of the loss of crawler data. In addition, we use our own align model. If you need our processed data, please email me qiulingteng@stu.hit.edu.cn. 
-- [Triple Dataset](https://ai.google/tools/datasets/google-facial-expression/)  
+Be Careful! Our model does not use all the triple pairs because of the loss of crawler data. In addition, we use our own align model. If you need our processed data, please email me qiulingteng@stu.hit.edu.cn. 
+- [Triple Dataset](https://ai.google/tools/datasets/google-facial-expression/)
+## File Structure
+```
+ `-- PROJECT_ROOT
+  -- Triple Dataset
+     `|-- train_align
+      |-- annotations
+```
 ## Link
 we must build the env for training 
 ```bash
