@@ -28,11 +28,13 @@ Be Careful! Our model does not use all the triple pairs because of the loss of c
 - [Triple Dataset](https://ai.google/tools/datasets/google-facial-expression/)
 ## File Structure
 ```
- `-- PROJECT_ROOT
+  -- PROJECT_ROOT
   -- Triple Dataset
-     `|-- train_align
-      |-- annotations
+     |-- train_align
+     |-- annotations
 ```
+In annotations, your training triple data name save into \*.txt  
+all of it, you can change in config\\paths_catalog.py
 ## Link
 we must build the env for training 
 ```bash
