@@ -37,7 +37,6 @@ soft link to result
 ## Training
 1. create the config file of dataset:`train_list.txt`   
 2. modify the `config/*.yaml` according to your requirements
-3. train a network:
 
 ### Distributed Training
 We use the official `torch.distributed.launch` in order to launch multi-gpu training. This utility function from PyTorch spawns as many Python processes as the number of GPUs we want to use, and each Python process will only use a single GPU.
