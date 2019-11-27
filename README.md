@@ -63,6 +63,6 @@ In the evaluator, we have implemented the multi-gpu inference base on the multi-
 ## Experiment Results
 Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC| ACC
 :--:|:--:|:--:|:--:|:--:
- InceptionNN2+denseblock  | R101_v1c | *train_aug*  | *val*  | 79.71 
- InceptionResnet+denseblock   | R101_v1c | *train_aug*  | *val*  | 73.28 
- Resnet18+Conv3*3   | R101_v1c | *train_aug*  | *val*  | 73.28 
+ InceptionNN2+denseblock  | 76.4 | 78.8 | 77.8 | 77.3
+ InceptionResnet+denseblock   | 64.1 | 70.0 | 65.2  | 66.9 
+ Resnet18+Conv3*3   | 78.2 | 80.5 | 80.2 | 79.7
