@@ -48,6 +48,7 @@ Backbone | ONE_CLASS ACC | TWO_CLASS ACC | THREE_CLASS ACC| ACC
  InceptionNN2+denseblock  | 76.4 | 78.8 | 77.8 | 77.3
  InceptionResnet+denseblock   | 64.1 | 70.0 | 65.2  | 66.9 
  Resnet18+Conv3*3   | 78.2 | 80.5 | 80.2 | 79.7
+ Resnet50+Conv3*3   | 78.5 | 81.3 | 80.9 | 80.3
 
 ## Training
 1. create the config file of dataset:`train_list.txt`   
@@ -68,9 +69,6 @@ For each experiment, you can just run this script:
 ```bash
 bash train.sh
 ```
-
-In train.sh, the argument of `d` means the GPU you want to use.
-
 ## Inference
 In the evaluator, we have implemented the multi-gpu inference base on the multi-process. In the inference phase, the function will spawns as many Python processes as the number of GPUs we want to use, and each Python process will handle a subset of the whole evaluation dataset on a single GPU.
 1. input arguments in shell:
