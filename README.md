@@ -22,7 +22,8 @@ Our model structure is the same as [maskrcnn-benchmark](https://github.com/faceb
 ### Supported Model
 - ResNet18
 - Inception N22
-- Inception Resnet 
+- Inception Resnet
+- ResNet50
 ## Datasets
 Be Careful! Our model does not use all the triple pairs because of the loss of crawler data. In addition, we use our own align model. If you need our processed data, please email me qiulingteng@stu.hit.edu.cn. 
 - [Triple Dataset](https://ai.google/tools/datasets/google-facial-expression/)
