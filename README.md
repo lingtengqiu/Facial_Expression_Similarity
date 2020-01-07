@@ -25,15 +25,13 @@ Our model structure is the same as [maskrcnn-benchmark](https://github.com/faceb
 - Inception Resnet
 - ResNet50
 ## Datasets
-Be Careful! Our model does not use all the triple pairs because of the loss of crawler data. In addition, we use our own align model. If you need our processed data, please email me qiulingteng@stu.hit.edu.cn. 
-- [Triple Dataset](https://ai.google/tools/datasets/google-facial-expression/)
+Be Careful! Our model does not use all the triple pairs because of the loss of crawler data. In addition, we use our own align model. If you need our processed data, please email me qiulingteng@stu.hit.edu.cn. google original dataset is in here(https://ai.google/tools/datasets/google-facial-expression/).
 
 For the benefit of everyone, hence I upload my processed data to Baidu WebDisk so that everyone can download and research.  
-Note that our collected have a lit bit loss due to orignial datasets website link error.  
-
-The format of annotations you can refer to  train_list and test_list.  
-
+Note that our collected have a lit bit loss due to orignial datasets website link error. link address is given by：
 - [Face_Emotion_Data](https://pan.baidu.com/s/1yS_2Lt7JjkPB6gVQ0RVdpw)  
+
+The format of annotations you can refer to  train_list and test_list. 
 Key: ndcm
 ## File Structure
 ```
