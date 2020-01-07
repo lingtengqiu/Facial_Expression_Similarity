@@ -31,7 +31,7 @@ For the benefit of everyone, hence I upload my processed data to Baidu WebDisk s
 Note that our collected have a lit bit loss due to orignial datasets website link error. link address is given by：
 - [Face_Emotion_Data](https://pan.baidu.com/s/1yS_2Lt7JjkPB6gVQ0RVdpw)  
 
-The format of annotations you can refer to  train_list and test_list. 
+The format of annotations you can refer to  train_list and test_list.  
 Key: ndcm
 ## File Structure
 ```
