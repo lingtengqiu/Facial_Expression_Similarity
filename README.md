@@ -30,7 +30,8 @@ Be Careful! Our model does not use all the triple pairs because of the loss of c
 
 For the benefit of everyone, hence I upload my processed data to Baidu WebDisk so that everyone can download and research.  
 Note that our collected have a lit bit loss due to orignial datasets website link error.  
-the format of annotations you can refer to  train_list and test_list.  
+
+The format of annotations you can refer to  train_list and test_list.  
 
 ## File Structure
 ```
