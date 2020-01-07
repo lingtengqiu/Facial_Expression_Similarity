@@ -33,6 +33,8 @@ Note that our collected have a lit bit loss due to orignial datasets website lin
 
 The format of annotations you can refer to  train_list and test_list.  
 
+- [Face_Emotion_Data](https://pan.baidu.com/s/1yS_2Lt7JjkPB6gVQ0RVdpw)  
+Key: ndcm
 ## File Structure
 ```
   -- PROJECT_ROOT
