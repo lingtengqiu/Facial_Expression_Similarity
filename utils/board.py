@@ -6,7 +6,7 @@
 # * Email         : 
 # * Create time   : 2018-11-06 09:52
 # * Last modified : 2018-11-06 09:52
-# * Filename      : board.py
+# * Filename      : 
 # * Description   : before we use the visualizer tool like tensorboardX and visdom but Know we change the method we only use the tensorboardX 
 # **********************************************************
 from datetime import datetime
